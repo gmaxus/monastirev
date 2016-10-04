@@ -1,6 +1,6 @@
 
-# Create table in mysql:
-
+### 1. Create table in mysql
+```
 CREATE TABLE `messages` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `email` varchar(255) NOT NULL DEFAULT '',
@@ -12,3 +12,14 @@ CREATE TABLE `messages` (
   `created` datetime NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+```
+
+### 2. Configure
+```
+/library/config.php
+```
+
+### 3. Images folder
+```
+Be shure that /images folder is exists and writable
+```
