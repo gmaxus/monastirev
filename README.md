@@ -1,4 +1,5 @@
 
+
 ### 1. Create table in mysql
 ```
 CREATE TABLE `messages` (
