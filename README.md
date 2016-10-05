@@ -22,5 +22,5 @@ CREATE TABLE `messages` (
 
 ### 3. Images folder
 ```
-Be shure that /images folder is exists and writable
+Be sure that /images folder is exists and writable
 ```
