@@ -58,6 +58,9 @@ if(isset($_REQUEST['add']))
             $template['path'] = 'templates/partials/error.php';
         }
     }
+
+    header('Location: index.php');
+    die();
 }
 
 if(!isset($template['data']['header']))

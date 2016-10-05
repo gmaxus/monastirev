@@ -13,8 +13,9 @@ $(document).ready(function() {
     });
 
     $("#submit_button").click(function( event ) {
-        if(!validate_fileds())
-            return false;
+        if($("#preview_button").length)
+            if(!validate_fileds())
+                return false;
     });
 
 

@@ -11,7 +11,7 @@
                     <input name="password" type="password" class="form-control" id="password" placeholder="Enter password" required>
                 </div>
             </div>
-            <button type="submit" id="form-preview" class="btn btn-lg btn-success pull-right">Login</button>
+            <button type="submit" id="form-preview" class="btn btn-success pull-right">Login</button>
         </form>
     </div>
 </div>

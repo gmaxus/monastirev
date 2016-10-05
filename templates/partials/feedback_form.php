@@ -23,13 +23,13 @@
                         echo $template['data']['message']['message'];
                     ?></textarea>
             </div>
-            <input type="file" name="upload">
             <?php if(!$is_admin): ?>
+            <input type="file" name="upload">
             <button type="button" id="preview_button" class="btn btn-primary pull-right ">Preview</button>
             <?php else: ?>
             <input type="hidden" name="id" value="<?=$template['data']['message']['id']?>">
             <?php endif; ?>
-            <button type="submit" id="submit_button" class="btn btn-lg btn-success pull-right">Submit</button>
+            <button type="submit" id="submit_button" class="btn btn-success pull-right">Submit</button>
         </form>
     </div>
 </div>

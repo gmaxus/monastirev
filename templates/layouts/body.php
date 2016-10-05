@@ -1,9 +1,9 @@
 <body>
 <div class="container">
-    <div class="row">
-        <div class="col-sm-4 col-sm-offset-3 pull-right">
+    <div class="row h5">
+        <div class="col-sm-8 col-sm-offset-2 text-right">
             sort by:
-            <a class="nav-link active" href="?sort=date&order=<?= ($sort == 'created' & $order == 'desc') ? 'asc' : 'desc' ?>">created</a> |
+            <a href="?sort=date&order=<?= ($sort == 'created' & $order == 'desc') ? 'asc' : 'desc' ?>">date</a> |
             <a href="?sort=name&order=<?= ($sort == 'name' && $order == 'desc') ? 'asc' : 'desc' ?>">name</a> |
             <a href="?sort=email&order=<?= ($sort == 'email' && $order == 'desc') ? 'asc' : 'desc' ?>">email</a>
         </div>
