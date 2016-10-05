@@ -9,6 +9,7 @@
     <style>
         #preview_div{
             display: none;
+            padding: 20px 0;
         }
     </style>
     <?= $template['header'] ?>

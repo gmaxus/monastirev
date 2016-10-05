@@ -4,12 +4,21 @@ $(document).ready(function() {
         if(!validate_fileds())
             return false;
 
+        var cd = new Date();
+        var datetime = cd.getHours() + ":"
+            + (cd.getMinutes())  + ":"
+            + cd.getSeconds() + " "
+            + cd.getFullYear() + "-"
+            + cd.getMonth() + "-"
+            + cd.getDate();
+
         $("#preview_div .message_name").text(name);
         $("#preview_div .message_email").text(email);
         $("#preview_div .message_message").text(message);
+        $("#preview_div .message_created").text(datetime);
 
         $("#preview_div").show();
-        $("#preview_div").addClass("bg-info");
+        window.scrollTo(0,document.body.scrollHeight);
     });
 
     $("#submit_button").click(function( event ) {

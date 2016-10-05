@@ -1,3 +1,4 @@
+
 <?= $template['footer'] ?>
 
 <footer class="footer">
